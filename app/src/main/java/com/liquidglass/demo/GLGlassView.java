@@ -81,7 +81,7 @@ public class GLGlassView extends GLSurfaceView {
         offsetX = Math.max(-MAX_OFFSET, Math.min(MAX_OFFSET, offsetX));
         offsetY = Math.max(-MAX_OFFSET, Math.min(MAX_OFFSET, offsetY));
 
-        renderer.setOffset(offsetX, offsetY);
+        renderer.setDrag(offsetX, offsetY);
     }
 
     @Override
